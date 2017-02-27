@@ -1,0 +1,92 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ua.com.wolfff.atlasnotes2.Fragments.AddEditFragment"
+    android:id="@+id/addEditFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ID"
+            android:id="@+id/tvID"
+            android:layout_row="2"
+            android:layout_column="0" />
+
+        <EditText
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_ID" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Заголовок"
+            android:id="@+id/tvName"
+            android:layout_row="3"
+            android:layout_column="0" />
+
+        <EditText
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/editText_Name"
+            android:hint="Заголовок"
+            android:layout_row="3"
+            android:layout_column="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Описание"
+            android:id="@+id/tvDescribe"
+            android:layout_row="4"
+            android:layout_column="0" />
+
+        <EditText
+            android:layout_width="184dp"
+            android:layout_height="154dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/editText_Describe"
+            android:hint="Описание"
+            android:layout_row="4"
+            android:layout_column="1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Дата добавления"
+            android:id="@+id/tvDateAdd"
+            android:layout_row="5"
+            android:layout_column="0" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/editText_DateAdd"
+            android:hint="Дата добавления"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:layout_columnSpan="2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:id="@+id/saveNoteButton" />
+
+    </GridLayout>
+
+</FrameLayout>

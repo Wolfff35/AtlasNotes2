@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Atlas Notes</string>
+    <string name="action_settings">Настройки</string>
+
+    <!-- TODO:  -->
+    <string name="menuItem_add">Добавить</string>
+    <string name="menuItem_delete">Удалить</string>
+    <string name="menuItem_edit">Редактировать</string>
+
+</resources>
